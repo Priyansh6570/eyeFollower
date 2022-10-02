@@ -1,0 +1,22 @@
+body {
+    margin : 0;
+    padding : 0;
+    color: #fff;
+    background: #000;
+}
+main {
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+    position: relative;
+}
+#eyes, #eyes img {
+    position: absolute;
+}
+.rick {
+    width : 80vw;
+    height : 100vh;
+}
+.eye {
+    border-radius: 50%;
+}
